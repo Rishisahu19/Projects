@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+
+}
+
+.button {
+    width: 66px;
+    padding: 20px;
+    margin: 0 3px;
+    border: 2px solid black;
+    border-radius: 9px;
+    cursor: pointer;
+    background-color: brown;
+    font-size: 15px;
+    /* background: transparent; */
+    /* box-shadow: 0px 3px 15px rgba(113, 115, 119, 0.5); */
+}
+.button:hover{
+    box-shadow: 0px 3px 15px rgba(113, 115, 119, 0.5);
+}
+
+.row {
+    margin: 8px 0;
+}
+
+.row input {
+    width: 300px;
+    font-size: 20px;
+    font-style: bold;
+    margin: 0;
+    padding: 10px 10px;
+    border: 2px solid black;
+    border-radius: 7px;
+    background-color: brown;
+}
+/* .container{
+    color: aliceblue;
+    
+} */
+
