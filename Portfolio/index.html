@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RIC Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/dc7ef4586a.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div id="header" class="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo" alt="Logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <strong>BTECH CSE</strong>
+                <h1>Hi, I'm <span>RISHI</span> <br> SAHU From India</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- About section -->
+    <div id="about" class="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.jpg" alt="User Image">
+                </div>
+                <div class="about-col-2">
+                    <h1>About Me</h1>
+                    <br>
+                    <p>
+                        Dedicated and adaptable student currently pursuing Bachelor's of Technology, with a strong
+                        passion for learning new technologies and methodologies. Known for reliability and a willingness
+                        to embrace new challenges. Demonstrated dynamic understanding of concepts in various projects.
+                        Eager to apply growing knowledge and skills to contribute effectively to a dynamic work
+                        environment.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links " onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Coding </span> <br> 450+Code in Leetcode</li>
+                            <li><span>Web Dev</span> <br> Video Conferencing Website</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Spotify Clone</span> <br> Implemented features like music playback and playlist
+                                management using HTML, CSS, and JavaScript.</li>
+                            <li><span>TikTok-inspired App</span> <br> Engineered a real-time video streaming app using
+                                HTML, CSS, and JavaScript.</li>
+                            <li><span>Calculator App</span> <br> Designed and implemented a user-friendly calculator app
+                                with precise calculations using HTML, CSS, and JavaScript.</li>
+                            <li><span>Video Conferencing Website</span> <br> Developed a video conferencing website
+                                using WebRTC, JavaScript, HTML5, CSS3, Node.js, and React.js.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Bachelor of Technology</span> <br> Pranveer Singh Institute of Technology, Kanpur,
+                                India. Current CGPA: 7.79 (Expected Graduation: June 2025)</li>
+                            <li><span>Intermediate</span> <br> St. Joseph's English Medium Sr Sec School, Mahoba, India.
+                                Percentage: 83.2% (June 2021)</li>
+                            <li><span>High School</span> <br> St. Joseph's English Medium Sr Sec School, Mahoba, India.
+                                Percentage: 80% (June 2019)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services section -->
+    <div id="services" class="services">
+        <div class="container">
+            <h1 class="sub-title">My Achievements</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Leetcode</h2>
+                    <br>
+                    <p>Successfully solved over 350 problems, demonstrating advanced problem-solving skills.</p>
+                    <br>
+                    <a href="https://leetcode.com/rishisahu193/" target="_blank"> CLICK LINK:</a>
+                </div>
+
+                <div>
+                    <i class="fab fa-app-store"></i>
+                    <h2>Flipkart Grid</h2>
+                    <br>
+                    <p>Achieved both Level 1.1 and Level 1.2 certifications.</p>
+                    <br>
+                    <a href="images/Flip_1.pdf" target="_blank">See Certification_1</a>
+                    <br>
+                    <a href="images/Flip_2.pdf" target="_blank">See Certification_2</a>
+
+                </div>
+                <div>
+                    <i class="fas fa-laptop-code"></i>
+                    <h2>HackerRank 5 Star Problem Solving</h2>
+                    <br>
+                    <p>Attained the highest rating in problem-solving on HackerRank, demonstrating exceptional
+                        problem-solving abilities.</p>
+                    <br>
+                    <a href="https://www.hackerrank.com/profile/rishisahu193" target="_blank">Learn More</a>
+                </div>
+            </div>
+            <a href="#achievements" class="btn">More</a>
+        </div>
+    </div>
+
+    <!-- Portfolio section -->
+    <div id="portfolio" class="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png" alt="Work 1">
+                    <div class="layer">
+                        <h2>Video Conferencing Website</h2>
+                        <br>
+                        <p>Developed a video conferencing website with real-time communication and collaboration
+                            features, enhancing remote teamwork. Utilized technologies like WebRTC, JavaScript, HTML5,
+                            CSS3, Node.js, and React.js, WebSockets to deliver seamless video calls and chat
+                            functionality.</p>
+                        <a href="#" target="_blank"><i class="fas fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png" alt="Work 2">
+                    <div class="layer">
+                        <h2>Calculator</h2>
+                        <br>
+                        <p>Designed and implemented a user-friendly calculator app with precise calculations using HTML,
+                            CSS, and JavaScript.</p>
+                        <a href="https://github.com/Rishisahu19/Projects/tree/main/Calculator" target="_blank"><i
+                                class="fas fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png" alt="Work 3">
+                    <div class="layer">
+                        <h2>Portfolio Website</h2>
+                        <br>
+                        <p>Designed and developed a professional portfolio website using HTML, CSS, and JavaScript to
+                            showcase my projects, skills, and achievements in a dynamic and user-friendly format.</p>
+                        <a href="https://github.com/Rishisahu19/Projects/tree/main/Portfolio" target="_blank"><i class="fas fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact section -->
+    <div id="contact" class="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i> rishisahu193@gmail.com</p>
+                    <p><i class="fas fa-phone"></i> +91-9473610400</p>
+                    <div class="social-icons">
+                        <a href="https://github.com/Rishisahu19" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://twitter.com/sahu_rishi99350" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="www.linkedin.com/in/rishi-sahu-073a81232" target="_blank"><i
+                                class="fab fa-linkedin"></i></a>
+
+                    </div>
+                    <a href="images/my-resume.pdf" download class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="copyright">
+        <p>&copy; 2024 RIC. All rights reserved.</p>
+    </div>
+
+
+    <script>
+        function opentab(tabname) {
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+
+            for (var i = 0; i < tablinks.length; i++) {
+                tablinks[i].classList.remove("active-link");
+            }
+            for (var i = 0; i < tabcontents.length; i++) {
+                tabcontents[i].classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbziSmT99nGFR45whOIrZ57D8HECU6KYWFXvI7r6EMQTb64tVJGuWPljiYV3w2dqTR8R/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg");
+
+        form.addEventListener('submit', e => {
+            e.preventDefault();
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent Successfully";
+                    setTimeout(function () {
+                        msg.innerHTML = "";
+                    }, 5000);
+                    form.reset();
+                })
+                .catch(error => console.error('Error!', error.message));
+            return false;
+        });
+    </script>
+
+
+
+</body>
+
+</html>
